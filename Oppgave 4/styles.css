@@ -1,0 +1,40 @@
+#flexbox1 {
+    display: flex;
+    flex-direction: row;
+    /* flex-direction: row | row-reverse | column | column-reverse; */
+    align-items: stretch;
+    /* align-items: stretch | flex-start | flex-end | center | baseline  */
+    /* flex-wrap: nowrap | wrap | wrap-reverse; */  
+    /* justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly | start | end | left | right; */
+}
+#specificFlexChild {
+    align-self: auto;
+    /* flex-grow: 4; */
+    /* align-self: auto | flex-start | flex-end | center | baseline | stretch; */
+}
+
+
+/* Ikke relevant for flex testingen, med mindre du ønsker å eksprimentere med størrelse på flex items. */
+.block {
+    width: 50px; /* Sett till 100% hvis du vil leke med flex-grow */
+    height: 50px;
+    background: gray;
+    border: 2px solid black;
+    margin: 2px;
+}
+
+.gray {
+    background:gray;
+}
+
+.green {
+    background: green;
+}
+
+.darkviolet {
+    background:darkviolet;
+}
+
+.dodgerblue {
+    background:dodgerblue;
+}
